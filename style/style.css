@@ -92,3 +92,19 @@ nav ul li a {
     align-items: flex-start;
   }
 }
+@media screen and (min-width: 576px) and (max-width:992px) {
+  header {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  nav > ul {
+    gap: 25px;
+  }
+  nav h3 {
+    font-size: 35px;
+  }
+  .banner h1 {
+    font-size: 44px;
+  }
+
+}
