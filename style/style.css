@@ -1,70 +1,94 @@
 /* Work Sans font from google font */
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Work+Sans:ital,wght@0,500;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Work+Sans:ital,wght@0,600;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Work+Sans:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Work+Sans:ital,wght@0,700;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Work+Sans:ital,wght@0,800;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Work+Sans:ital,wght@0,900;1,900&display=swap');
-*{
-
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Work+Sans:ital,wght@0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Work+Sans:ital,wght@0,600;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Work+Sans:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Work+Sans:ital,wght@0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Work+Sans:ital,wght@0,800;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Work+Sans:ital,wght@0,900;1,900&display=swap");
+* {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 /* Work Sans font from google font */
 
-header{
-    background-color: #ffe5c6;
-    padding: 10px;
-    padding-right: 240px;
-    padding-left: 240px;
+header {
+  background-color: #ffe5c6;
+
+  padding-right: 240px;
+  padding-left: 240px;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav h3{
-    font-size: 45px;
+nav h3 {
+  font-size: 45px;
 }
-nav li{
-    font-size: 18px;
+nav li {
+  font-size: 18px;
 }
-nav li{
-    list-style: none;
+nav li {
+  list-style: none;
+  border: 1px solid black;
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(222, 234, 167);
 }
-nav >ul {
-    display: flex;
-    gap: 50px;
+nav > ul {
+  display: flex;
+  gap: 50px;
 }
-nav ul li a{
-    text-decoration: none;
-    color: black;
-    
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.banner {
+  text-align: center;
+}
+.banner h1 {
+  font-size: 64px;
+}
+.banner p {
+  font-size: 16px;
+}
+.banner img {
+  margin-top: 50px;
+  width: 100%;
+}
+.button {
+  background-color: #ff900e;
+  border: 0;
+  border-radius: 8px;
+  width: 180px;
+  height: 64px;
+  font-size: 20px;
+}
+.button a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 
-}
-.banner{
-    text-align: center;
-}
-.banner h1{
-    font-size: 64px;
-}
-.banner p{
-    font-size: 16px;
-}
-.banner img{
-    margin-top: 50px;
-    width: 100%;
-}
-.button{
-    background-color: rgb(227, 78, 23);
-    
-    width: 180px;
-    height: 64px;
-    font-size: 20px;
-}
-.button a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+/* responsive for header */
+@media screen and (max-width: 576px) {
+  header {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  nav > ul {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+  nav h3 {
+    font-size: 25px;
+  }
+  .banner h1 {
+    font-size: 44px;
+  }
+  nav {
+    align-items: flex-start;
+  }
 }
