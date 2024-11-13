@@ -110,9 +110,6 @@ nav ul li a {
 /* main section start */
 
 main {
-  margin-left: 250px;
-  margin-right: 250px;
-  
   margin-top: 70px;
 }
 .teams-container {
@@ -120,19 +117,17 @@ main {
   align-items: center;
   grid-template-columns: 50% 50%;
   gap: 70px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 .teams-img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-..teams-text{
-  
-  
 
-}
 .teams-text h2 {
   font-size: 45px;
-  /* margin-top: 500px; */
+  
 }
 .teams-text p{
   font-size: 16px;
@@ -141,4 +136,38 @@ main {
 }
 .teams-container img{
   width: 100%;
+}
+@media screen and (max-width:576px) {
+  .teams-container {
+    gap: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  .teams-text p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .teams-text{
+    text-align: center;
+  }
+
+}
+@media screen and (min-width:576px)and (max-width:992px) {
+  .teams-container {
+    gap: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+    display: flex;
+    flex-direction: column;
+  }
+  .teams-text p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .teams-text{
+    text-align: center;
+  }
+
 }
