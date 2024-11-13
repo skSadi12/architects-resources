@@ -360,3 +360,34 @@ main {
     height: 10%;
   }
 }
+/* FOOTER */
+footer{
+  background-color: #bc9568;
+  padding: 10px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 230px;
+  margin-right: 230px;
+}
+footer p{
+  font-size: 20px;
+}
+@media screen and (max-width:576px) {
+  footer{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer p{
+    font-size: 10px;
+  }
+}
+@media screen and (min-width:576px) and ((max-width:992px)) {
+  footer{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  footer p{
+    font-size: 15px;
+  }
+}
+/* page end */
