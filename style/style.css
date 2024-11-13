@@ -246,8 +246,7 @@ main {
   .ex{
     width: 250px;
     height: 150px;
-    margin-top: 20px;
-    
+    margin-top: 20px; 
   }
   .ex1{
     font-size:50px;
@@ -258,4 +257,35 @@ main {
     align-items: center;
   }
 }
+
+
 /* Features-container responsive done*/
+
+
+.facts-container{
+  margin-top: 100px;
+  margin-left: 230px;
+  margin-right: 230px;
+}
+.Some-Facts h3{
+  font-size: 45px;
+}
+.facts-box-container{
+  display: flex;
+  justify-content: space-around;
+}
+.facts-box{
+  border: 1px solid orangered ;
+  border-radius: 5px;
+  padding: 15px;
+  display: grid;
+  text-align: center; 
+  height: 150px;
+  width: 150px;
+}
+.facts-box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
