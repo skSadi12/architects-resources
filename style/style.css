@@ -126,7 +126,7 @@ main {
 }
 
 .teams-text h2 {
-  font-size: 45px;
+  font-size: 55px;
   
 }
 .teams-text p{
@@ -170,4 +170,44 @@ main {
     text-align: center;
   }
 
+}
+
+/* Features-container start */
+
+.Features-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 30px;
+  margin-top: 80px;
+  margin-left: 230px;
+  margin-right: 230px;
+}
+.Features-container img{
+  width: 100%;
+}
+.text-box{
+  margin-top: 10px;
+  border: 1px solid rgb(237, 237, 237);
+  box-shadow: 10px 10px 10px rgb(227, 227, 227);
+  padding: 5px;
+  border-radius: 10px;
+}
+.Features-container p {
+  font-size: 16px;
+  color: rgb(156, 156, 156) ;
+}
+.Features-container h3 {
+  font-size: 20px;
+}
+.ex{
+  width: 342px;
+  height: 200px;
+  padding: 5px;
+}
+.Features-container h2 {
+  font-size: 45px;
+}
+.ex1{
+  font-size:65px ;
+  
 }
