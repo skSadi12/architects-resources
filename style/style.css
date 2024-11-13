@@ -211,3 +211,23 @@ main {
   font-size:65px ;
   
 }
+/* Features-container responsive */
+@media screen and (max-width:576px) {
+  .Features-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .ex{
+    width: 150px;
+    height: 100px;
+    
+  }
+  .ex1{
+    
+    font-size:30px;
+  }
+  
+}
