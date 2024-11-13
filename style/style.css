@@ -313,3 +313,24 @@ main {
   }
 }
 /* Facts section responsive done */
+
+/* Sponspors section start */
+.Sponspors-container{
+  margin-top: 100px;
+  margin-left: 230px;
+  margin-right: 230px;
+}
+.Sponspors-logo{
+  display: flex;
+  justify-content: space-between;
+}
+.Sponspors-text{
+  text-align: center;
+}
+.Sponspors-text h3{
+  font-size: 45px ;
+}
+.Sponspors-text p{
+  font-size: 16px ;
+  margin-bottom: 40px;
+}
